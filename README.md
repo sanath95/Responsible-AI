@@ -149,8 +149,8 @@ Since accuracy is not the primary objective of this project, only two key hyperp
 - Categorical columns were cast as ``category`` types to ensure proper processing by the models.
 
 #### Privacy-Enhancing Methods
-- **Pseudonymization:** Personal medical information, such as medical conditions and medications, was excluded from the training data. This ensures that personal data cannot be linked to a specific individual without additional information.
-- **Anonymization:** Personal data was transformed to a form that is unreadable by unauthorized users, providing additional privacy protection.
+- **Pseudonymization:** Personal medical information, such as ``medical conditions`` and ``medications``, was excluded from the training data. This ensures that personal data cannot be linked to a specific individual without additional information.
+- **Anonymization:** Personal data was transformed to a form that is unreadable by unauthorized users, providing additional privacy protection. ``Names`` are anonymised using cryptographic hash functions.
 
 ### Evaluation Results
 
